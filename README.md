@@ -5,7 +5,7 @@ Focus: event-driven architecture, sub-millisecond inference, production-grade re
 
 ## Architecture
 
-text
+```text
 [SymbolManager] → [Screener] → [MarketStreamAggregator × N]
                                         │
                                         ├── [OrderBook] (incremental)
@@ -14,6 +14,7 @@ text
                                                              │
                                                              ├── [OkxTrader]
                                                              └── [RealTradeTracker]
+```
 
 ## Technical Highlights
 
@@ -38,10 +39,11 @@ Strategy details and trained models are not included.
 
 ## Structure
 
-text
+```text
 include/       Public headers
 src/           Implementation
 CMakeLists.txt Build configuration
+```
 
 ## Note
 
