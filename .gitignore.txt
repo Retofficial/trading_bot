@@ -1,0 +1,33 @@
+# Build
+build/
+*.o
+*.so
+*.exe
+*.dll
+
+# Configs
+trader_config.json
+*.key
+*.secret
+.env
+
+# Data & logs
+signal_logs/
+regime_logs/
+trades/
+*.csv
+*.zip
+
+# Models
+lightgbm_model*.txt
+lightgbm_model*.zip
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
